@@ -26,7 +26,7 @@
   <groupId>org.jboss.netty</groupId>
   <artifactId>netty</artifactId>
   <packaging>bundle</packaging>
-  <version>3.2.10.pb2</version>
+  <version>3.2.11.pb2-SNAPSHOT</version>
 
   <name>The Netty Project</name>
   <url>http://www.jboss.org/netty/</url>
@@ -52,6 +52,7 @@
     <url>https://github.com/davidlar/netty</url>
     <connection>scm:git:git://github.com/davidlar/netty.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/davidlar/netty.git</developerConnection>
+    <tag>HEAD</tag>
   </scm>
 
   <dependencies>
