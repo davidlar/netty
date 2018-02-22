@@ -27,9 +27,9 @@ import org.jboss.netty.handler.codec.frame.LengthFieldBasedFrameDecoder;
 import org.jboss.netty.handler.codec.frame.LengthFieldPrepender;
 import org.jboss.netty.handler.codec.oneone.OneToOneDecoder;
 
-import com.google.protobuf.ExtensionRegistry;
-import com.google.protobuf.Message;
-import com.google.protobuf.MessageLite;
+import com.google.protobuf2.ExtensionRegistry;
+import com.google.protobuf2.Message;
+import com.google.protobuf2.MessageLite;
 
 /**
  * Decodes a received {@link ChannelBuffer} into a

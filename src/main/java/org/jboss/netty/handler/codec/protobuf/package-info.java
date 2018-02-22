@@ -17,7 +17,7 @@
 /**
  * Encoder and decoder which transform a
  * <a href="http://code.google.com/p/protobuf/">Google Protocol Buffers</a>
- * {@link com.google.protobuf.Message} into a {@link org.jboss.netty.buffer.ChannelBuffer}
+ * {@link com.google.protobuf2.Message} into a {@link org.jboss.netty.buffer.ChannelBuffer}
  * and vice versa.
  *
  * @apiviz.exclude \.oneone\.

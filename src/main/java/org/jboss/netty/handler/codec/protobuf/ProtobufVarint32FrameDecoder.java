@@ -21,7 +21,7 @@ import org.jboss.netty.channel.ChannelHandlerContext;
 import org.jboss.netty.handler.codec.frame.CorruptedFrameException;
 import org.jboss.netty.handler.codec.frame.FrameDecoder;
 
-import com.google.protobuf.CodedInputStream;
+import com.google.protobuf2.CodedInputStream;
 
 /**
  * A decoder that splits the received {@link ChannelBuffer}s dynamically by the
@@ -36,7 +36,7 @@ import com.google.protobuf.CodedInputStream;
  * +--------+---------------+      +---------------+
  * </pre>
  *
- * @see com.google.protobuf.CodedInputStream
+ * @see com.google.protobuf2.CodedInputStream
  *
  * @author <a href="http://www.jboss.org/netty/">The Netty Project</a>
  * @author Tomasz Blachowicz (tblachowicz@gmail.com)

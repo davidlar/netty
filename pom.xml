@@ -26,7 +26,7 @@
   <groupId>org.jboss.netty</groupId>
   <artifactId>netty</artifactId>
   <packaging>bundle</packaging>
-  <version>3.2.11.Final-SNAPSHOT</version>
+  <version>3.2.10.pb2</version>
 
   <name>The Netty Project</name>
   <url>http://www.jboss.org/netty/</url>
@@ -49,17 +49,17 @@
   <inceptionYear>2008</inceptionYear>
 
   <scm>
-    <url>https://github.com/netty/netty</url>
-    <connection>scm:git:git://github.com/netty/netty.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/netty/netty.git</developerConnection>
+    <url>https://github.com/davidlar/netty</url>
+    <connection>scm:git:git://github.com/davidlar/netty.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/davidlar/netty.git</developerConnection>
   </scm>
 
   <dependencies>
     <!-- Google Protocol Buffers - completely optional -->
     <dependency>
-      <groupId>com.google.protobuf</groupId>
+      <groupId>com.google.protobuf2</groupId>
       <artifactId>protobuf-java</artifactId>
-      <version>2.4.1</version>
+      <version>2.5.0-pb2</version>
       <scope>compile</scope>
       <optional>true</optional>
     </dependency>
@@ -638,7 +638,7 @@
       </plugin>
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
-        <version>2.2.1</version>
+        <version>2.5.3</version>
         <configuration>
           <!-- We don't want to use the default release profile because it
                causes the JavaDoc and source jars to be deployed twice. -->

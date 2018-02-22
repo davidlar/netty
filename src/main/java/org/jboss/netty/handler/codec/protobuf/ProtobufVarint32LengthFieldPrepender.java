@@ -24,7 +24,7 @@ import org.jboss.netty.channel.ChannelHandlerContext;
 import org.jboss.netty.channel.ChannelHandler.Sharable;
 import org.jboss.netty.handler.codec.oneone.OneToOneEncoder;
 
-import com.google.protobuf.CodedOutputStream;
+import com.google.protobuf2.CodedOutputStream;
 
 /**
  * An encoder that prepends the the Google Protocol Buffers
@@ -38,7 +38,7 @@ import com.google.protobuf.CodedOutputStream;
  * +---------------+               +--------+---------------+
  * </pre> *
  *
- * @see com.google.protobuf.CodedOutputStream
+ * @see com.google.protobuf2.CodedOutputStream
  *
  * @author <a href="http://www.jboss.org/netty/">The Netty Project</a>
  * @author Tomasz Blachowicz (tblachowicz@gmail.com)

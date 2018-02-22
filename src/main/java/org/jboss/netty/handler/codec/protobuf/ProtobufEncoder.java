@@ -27,8 +27,8 @@ import org.jboss.netty.handler.codec.frame.LengthFieldBasedFrameDecoder;
 import org.jboss.netty.handler.codec.frame.LengthFieldPrepender;
 import org.jboss.netty.handler.codec.oneone.OneToOneEncoder;
 
-import com.google.protobuf.Message;
-import com.google.protobuf.MessageLite;
+import com.google.protobuf2.Message;
+import com.google.protobuf2.MessageLite;
 
 /**
  * Encodes the requested <a href="http://code.google.com/p/protobuf/">Google
